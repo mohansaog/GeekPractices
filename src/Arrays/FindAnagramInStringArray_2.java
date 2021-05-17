@@ -33,7 +33,7 @@ public class FindAnagramInStringArray_2 {
 			if(pp.size() > 1)
 				System.out.print(pp+" ");
 		}
-		
+		System.out.println("-----");
 	}
 
 }
