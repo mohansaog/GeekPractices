@@ -1,0 +1,27 @@
+package StringBasic;
+
+import java.util.Scanner;
+
+public class hackerrank_sample_q_1 {
+
+	public static void main(String[] args) {
+		Scanner sc=new Scanner(System.in);
+        String A=sc.next();
+        String B=sc.next();
+        
+        System.out.println(A.length() + B.length());
+        if(A.charAt(0) < B.charAt(0))
+            System.out.println("yes");
+        else
+            System.out.println("no");
+        
+       String a1 = A.substring(0,1).toUpperCase();
+       String a2 = B.substring(0,1).toUpperCase();
+        A = a1 + A.substring(1);
+        B = a2 + B.substring(1);
+        System.out.println(A +" "+B);
+        
+
+	}
+
+}
